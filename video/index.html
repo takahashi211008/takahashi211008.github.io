@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>github-page｜動画の表示</title>
+
+<style>
+html,body,h1{margin: 0;padding: 0;}
+.video-wrapper{
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
+}
+video{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.txt-box{
+box-sizing: border-box;
+width: 640px;
+margin: 80px auto;
+padding: 160px;
+background: rgba(255,255,255,0.4);
+}
+h1{
+font-size: 64px;
+}
+.txt-box>p{
+font-size: 20px;
+line-height: 2;
+}
+</style>
+
+</head>
+<body>
+<div class="txt-box">
+<h1>Lorem ipsum dolor sit.</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur sed, consequatur eveniet dignissimos voluptatibus maiores itaque dolorem, harum quo deserunt quae accusantium, odio incidunt eum? Iusto esse incidunt odio?</p>
+</div>
+<div class="video-wrapper">
+<video src="img/newton.mp4" autoplay muted loop></video>
+</div>
+</body>
+</html>
