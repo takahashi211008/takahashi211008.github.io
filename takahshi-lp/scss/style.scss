@@ -1,0 +1,85 @@
+@use "reset";
+@use "nav";
+
+$col-pri: #FEF1E6;
+$col-sec: #F9D5A7;
+$col-tert: #FFB085;
+$col-quat: #90AACB;
+
+$col-bg: #fff;
+$col-txt: #333;
+
+$tab:960px;
+$sp:560px;
+
+@mixin tab {
+@media (max-width:$tab) {
+@content;
+}
+}
+
+@mixin sp {
+@media (max-width:$sp) {
+@content;
+}
+}
+
+h1{
+width: 320px;
+height: 96px;
+padding-left: 16px;
+img{
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+&:hover{
+opacity: 0.75;
+}
+}
+
+.main-area{
+max-width: 1080px;
+margin: 0 auto 32px;
+padding: 0 16px;
+}
+section{
+max-width: 1080px;
+margin: 0 auto 32px;
+padding: 0 16px;
+}
+.cta{
+max-width: 1080px;
+margin: 0 auto 32px;
+padding: 0 16px;
+}
+
+//to-form
+#to-form{
+width: 48px;
+height: 208px;
+background: $col-pri;
+border: 2px solid $col-tert;
+position: fixed;
+top: 0;
+bottom: 0;
+margin: auto;
+right: 0;
+transform: scale(1.0) translateX(96px);
+transition: 0.25s;
+
+a{
+color: $col-txt;
+font-weight: bold;
+writing-mode: vertical-rl;
+}
+
+}
+
+#to-form:hover{
+opacity: 0.8;
+}
+
+#to-form.scrl{
+transform: translateX(0);
+}
