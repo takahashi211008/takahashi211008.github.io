@@ -13,11 +13,10 @@
   <meta property="og:site_name" content="はじめてのWebサイト制作科｜フェリカテクニカルアカデミー"/>
   <meta property="og:description" content="求職者支援訓練の講座を池袋で学びましょう。フェリカテクニカルアカデミーは池袋にある求職者支援訓練の学校です。"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="-abs-url"/>
-  <meta property="og:image" content="-img-abs-pass"/>
+  <meta property="og:url" content="https://takahashi211008.github.io/takahashi-lp/"/>
 
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/aos.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -44,22 +43,33 @@
 </nav>
 
 <main>
+<div class="main-area-wrapper">
 <div class="main-area">
-<div class="main-visual"><img src="" alt=""></div>
+
+<picture class="main-visual">
+<source media="(max-width:560px)" srcset="img/main-sp.jpg" sizes="100%">
+<img src="img/main-pc.jpg" alt="">
+</picture>
+
 <div class="main-copy">
-<p>未経験からプロになる！<br>
-フェリカで就職力が身につく！</p>
+<h2>未経験からプロになる。</h2>
+<h3>11月開講のWebサイト制作科<br>見学会のお申込み受付中！</h3>
+<p>デザインやプログラムが未経験の方でも<br>基礎からしっかり学ぶことができます。</p>
 </div>
+</div><!-- ./main-area -->
 <div class="cta">
-<button class="cta-btn">WEBからかんたん 説明会予約</button>
+<button class="cta-btn">
+<a href="http://www.felica.info/kikin/web/web_form/index.shtml">WEBからかんたん 説明会予約</a>
+</button>
 </div>
-</div>
+</div><!-- ./main-area-wrapper -->
+
 
 <section id="point">
 <h2>未経験からプロになれる！フェリカの３つの特徴</h2>
 <div class="content-flex-wrapper">
 <!-- .content-box -->
-<div class="content-box">
+<div class="content-box" data-aos="fade-up" data-aos-duration="800">
 <h3>入学する８割以上が未経験！</h3>
 <div class="content-img">
 <img src="" alt="">
@@ -67,35 +77,37 @@
 <p>入学する方の８割以上は未経験者です。HTMLって何？というところから始めるので、未経験でも安心。6ヶ月毎日勉強することで、徐々に力をつけられます。</p>
 </div>
 <!-- .content-box -->
-<div class="content-box">
-<h3>業界現役の講師から、現場で必要とされるスキルを学べる！</h3>
+<div class="content-box" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+<h3>業界現役の講師から、<br>現場で必要なスキルを学べる！</h3>
 <div class="content-img">
 <img src="" alt="">
 </div>
 <p>
-フェリカで教鞭をとるのは、現役のWEBデザイナーや、多くの業界人を社会に送り出してきたプロフェッショナルの講師陣。実際にサイトを制作する実習もあり、実践で活きるWebの知識や技術を習得できるのが訓練の魅力です。</p>
+フェリカで教鞭をとるのは、現役のWEBデザイナーや、多くの業界人を社会に送り出してきたプロフェッショナルの講師陣。実践で活きるWebの知識や技術を習得できるのが訓練の魅力です。</p>
 </div>
 <!-- .content-box -->
-<div class="content-box">
-<h3>求職者支援訓練だから無料で通える！</h3>
+<div class="content-box" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+<h3>求職者支援訓練だから<br>無料で通える！</h3>
 <div class="content-img">
 <img src="" alt="">
 </div>
 <p>
-フェリカが行っているのは「求職者支援訓練」です。求職者支援訓練とは、スキルアップし早期再就職を目指すことを目的として、無料で学ぶことができる国の制度。さらに、一定の支給要件を満たす場合には、給付金を支給しながら通うことも可能です。</p>
+フェリカが行っているのは「求職者支援訓練」。求職者支援訓練とは、スキルアップし早期再就職を目指すことを目的として、無料で学ぶことができる国の制度です。</p>
 </div>
 </div><!-- ./content-flex-wrapper -->
 </section>
 
 <div class="cta">
-<button class="cta-btn">WEBからかんたん 説明会予約</button>
+<button class="cta-btn">
+<a href="http://www.felica.info/kikin/web/web_form/index.shtml">WEBからかんたん 説明会予約</a>
+</button>
 </div>
 
 <section id="message">
 <h2>受講生の声</h2>
 
 <!-- .content-box -->
-<div class="content-box">
+<div class="content-box" data-aos="fade-left" data-aos-duration="800">
 <div class="box-inner">
 <p>フェリカ学んで感じたのが、技術はもちろん、現場の厳しさもそのまま伝えているということです。私が現在勤めている会社の場合ですが、フェリカを卒業した生徒はコーディングに定評があります。「フェリカ出てるならコーディング大丈夫だね」と言われました。</p>
 </div>
@@ -106,7 +118,7 @@
 </div>
 
 <!-- .content-box -->
-<div class="content-box">
+<div class="content-box" data-aos="fade-right" data-aos-duration="800">
 <div class="box-inner">
 <p>フェリカの講師陣は、技術者として現場で活躍されてきた方が多いということで、書籍だけの勉強では学び得ない「生きた」技術を学べると思い受講しました。授業の特徴は、きわめて「実践的」といった印象。先生の話しを聞いているだけ、という日はなく、常に手を動かすことを要求されます。技術は「聞いて覚える」のではなく、「やって身に着ける」のだと身をもって実感しました。</p>
 </div>
@@ -117,7 +129,7 @@
 </div>
 
 <!-- .content-box -->
-<div class="content-box">
+<div class="content-box" data-aos="fade-left" data-aos-duration="800">
 <div class="box-inner">
 <p>受講の決め手となったのは、学校説明会に行った際に先生方から伝わる熱意です。また、クライアントを探して一緒にサイトを作り上げるという課題が行われている点にも魅力を感じました。6ヶ月間の中で幅広い内容を指導してくれるので、毎日得ることが多く、授業がつまらないと感じることは一度もなかったです。
 </p>
@@ -129,9 +141,9 @@
 </div>
 
 <!-- .content-box -->
-<div class="content-box">
+<div class="content-box" data-aos="fade-right" data-aos-duration="800">
 <div class="box-inner">
-<p>インターネットで検索したときに評判が良かったのがフェリカで、受講をしていた生徒の記事が沢山あったので、そちらを参考に受講を決めました。htmlとはという初歩的な部分から、バックエンド系の言語まで幅広く専門の先生に習うことができたので、Web業界へのスタートにとても適した授業内容だったと思います。</p>
+<p>インターネットで検索したときに評判が良かったのがフェリカで、受講をしていた生徒の記事が沢山あり、そちらを参考に受講を決めました。htmlとはという初歩的な部分から、バックエンド系の言語まで幅広く専門の先生に習うことができたので、Web業界へのスタートにとても適した授業内容だったと思います。</p>
 </div>
 <div class="box-inner">
 <div class="content-img"><img src="img/msg_ishii.jpg" alt=""></div>
@@ -141,9 +153,16 @@
 
 </section>
 
+
 <section id="cont3">
 <h2>カリキュラム内容</h2>
-<div class="cont3-flex-wrapper">
+
+<!-- wavify -->
+<div class="wave-wrapper">
+<svg width="100%" height="20vh" version="1.1" xmlns="http://www.w3.org/2000/svg" id="bg-wave-svg"><defs></defs><path id="bg-wave" d=""/></svg>
+</div>
+
+<div class="content-flex-wrapper">
 <!-- .content-box -->
 <div class="content-box">
 <h3>HTML・CSS</h3>
@@ -151,7 +170,7 @@
 <img src="" alt="">
 </div>
 <p>
-Webサイトに文字や画像を表示したり、背景の色などのレイアウトを作っているのがHTML・CSSです。Web制作においてすべての土台となる重要な内容なので、フェリカでは時間をかけてじっくりと教えています。
+Webサイトでは、HTML・CSSによって文字や画像を表示したり、レイアウトを作っています。Web制作においてすべての土台となる重要な内容なので、フェリカでは時間をかけてじっくりと教えています。
 </p>
 </div>
 <!-- .content-box -->
@@ -198,7 +217,9 @@ Webサイトのデザインをはじめ、サイトに表示する画像の編�
 得意なスキルを見つけて自分の希望する仕事に就きましょう。<br>
 就職活動のサポートも専門のスタッフが職種の説明や応募書類の添削までしっかりと行います。</p>
 </div>
-<button class="cta-btn">WEBからかんたん 説明会予約</button>
+<button class="cta-btn">
+<a href="http://www.felica.info/kikin/web/web_form/index.shtml">WEBからかんたん 説明会予約</a>
+</button>
 </div>
 
 </main>
@@ -213,8 +234,26 @@ Webサイトのデザインをはじめ、サイトに表示する画像の編�
 
 <!-- script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="js/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="js/wavify.js"></script>
+<script src="js/jquery.wavify.js"></script>
+
 <script src="js/script.js"></script>
+<script>
+AOS.init();
+
+$(function(){
+$('#bg-wave').wavify({
+height: 60,
+bones: 3,
+amplitude: 40,
+color: '#90AACB',
+speed: .25
+});
+});
+</script>
 
 </body>
 </html>
